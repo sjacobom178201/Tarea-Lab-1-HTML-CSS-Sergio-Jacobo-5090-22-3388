@@ -1,0 +1,108 @@
+@font-face{
+    font-family: 'Main';
+    src: url('/Tarea Lab 1 con CSS/fonts/Main.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Mon';
+    src: url('/Tarea Lab 1 con CSS/fonts/Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Body */
+body {
+    background-color: #111111; 
+    color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+    background-color: #e6413b; 
+    color: #111111;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 65px;
+    font-family: 'Mon';
+}
+
+/* Párrafos */
+p {
+    color: #d2cfbd; 
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Contenedor por clase */
+.contenedor {
+    background-color: #202020;
+    border: 3px solid #e6413b;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Contenedor por ID */
+#principal {
+    background-color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    color: #fde61e; 
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+    color: #d2cfbd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e6413b;
+}
+
+/* Imágenes */
+img {
+    
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Titulares secundarios */
+h2, h3, h4, h5 {
+    color: #fde61e;
+    border-bottom: 2px solid #e6413b;
+    padding-bottom: 5px;
+    font-family: 'Main';
+}
+
+/* Footer */
+footer {
+    background-color: #e6413b;
+    color: #111111;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
